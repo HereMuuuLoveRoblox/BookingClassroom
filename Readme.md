@@ -17,3 +17,8 @@ doc link > [Virtual Environment](https://www.w3schools.com/python/python_virtual
 ## Install Packages
 	Example
 	pip install numpy
+
+
+## Library Used
+	- FastAPI
+	
