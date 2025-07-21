@@ -22,3 +22,4 @@ doc link > [Virtual Environment](https://www.w3schools.com/python/python_virtual
 ## Library Used
 	- FastAPI
 	
+## update
