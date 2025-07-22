@@ -61,7 +61,7 @@ def getUserByUserName(conn, UserName):
 def getUserByEmail(conn, email):
     try:
         mycursor = conn.cursor(dictionary=True)
-        mycursor.execute(f"SELECT userName FROM users WHERE email = '{email}'")
+        mycursor.execute(f"SELECT userName , role FROM users WHERE email = '{email}'")
         myresult = mycursor.fetchall()
         return myresult
 
